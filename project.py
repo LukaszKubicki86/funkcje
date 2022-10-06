@@ -1,7 +1,7 @@
 def isPalindrom(s):
     return s == s[::-1]
 
-s = "kajak"
+s = input("podaj slowo zobaczymy czy jest to palindrom:")
 ans= isPalindrom(s)
 
 if ans:
